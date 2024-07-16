@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background: whitesmoke;
+}
+
+
+header{
+    display: flex;
+    justify-content:center;
+    background-color: gray;
+    padding: 10px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+
+.sections{
+    margin-left: 300px;
+    margin-right: 300px;
+    gap: 100px;
+    display: flex;
+}
+
+.section-a{
+    max-width: 500px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: larger;
+}
+
+.form > input{
+    width: 300px;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.buttons .add{
+    padding: 8px 15px;
+    background-color: rgb(19, 231, 19);
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.buttons .add:hover{
+    background-color: rgb(63, 240, 63);
+}
+
+.buttons .clear{
+    padding: 8px 15px;
+    background-color: rgb(214, 5, 5);
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+
+.buttons .clear:hover{
+    background-color: rgb(248, 2, 2);
+}
+
+.section-b{
+    font-size: larger;
+    width: 700px;
+}
+
+.section-b > .heading{
+    display: flex;
+    background: rgb(27, 104, 203);
+    color: white;
+    border-radius: 8px 8px 0 0;
+    padding: 10px;
+    justify-content: center;
+    width: 100%;
+}
+
+.todo-list-item{
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cross{
+    padding: 8px 15px;
+    color: white;
+    background-color: rgb(214, 5, 5);
+    border: none;
+    border-radius: 4px;
+}
+
+.cross:hover{
+    background-color: rgb(248, 2, 2)
+}
